@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
             //想说什么
-            S.UI.simulate("祝贾郝鸣|生日快乐|#countdown 3|执子之手|与子偕老|❤️|LOVE|JIA|#time");
+            S.UI.simulate("祝贾郝鸣|生日快乐|❤️|执子之手|与子偕老|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
